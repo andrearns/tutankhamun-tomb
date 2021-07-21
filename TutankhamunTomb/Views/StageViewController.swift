@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Stage: UIViewController {
+class StageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

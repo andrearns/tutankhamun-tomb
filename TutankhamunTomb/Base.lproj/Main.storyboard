@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,137 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TutankhamunTomb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Em8-uT-zzo">
+                                <rect key="frame" x="51" y="753" width="313" height="63"/>
+                                <state key="normal" backgroundImage="about-button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0O-fi-b2q">
+                                <rect key="frame" x="51" y="670" width="313" height="63"/>
+                                <state key="normal" backgroundImage="play-button"/>
+                                <connections>
+                                    <action selector="playGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wxi-bP-id8"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo-firstscreen" translatesAutoresizingMaskIntoConstraints="NO" id="eKM-1P-SNa">
+                                <rect key="frame" x="43" y="105" width="328" height="463"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.92549019607843142" green="0.72941176470588232" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Em8-uT-zzo" firstAttribute="top" secondItem="c0O-fi-b2q" secondAttribute="bottom" constant="20" id="41M-Oj-qbG"/>
+                            <constraint firstItem="eKM-1P-SNa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6PE-3X-KQe"/>
+                            <constraint firstItem="c0O-fi-b2q" firstAttribute="top" secondItem="eKM-1P-SNa" secondAttribute="bottom" constant="102" id="GnF-wb-kCs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Em8-uT-zzo" secondAttribute="trailing" constant="50" id="N5h-ze-rRN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eKM-1P-SNa" secondAttribute="bottom" constant="294" id="bEw-eU-GZe"/>
+                            <constraint firstItem="eKM-1P-SNa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="eIa-gx-BA7"/>
+                            <constraint firstItem="c0O-fi-b2q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="gqg-PA-TxT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c0O-fi-b2q" secondAttribute="trailing" constant="50" id="k1u-FJ-6IS"/>
+                            <constraint firstItem="Em8-uT-zzo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="kFQ-9b-teE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Em8-uT-zzo" secondAttribute="bottom" constant="46" id="qx6-iT-WIM"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="103" y="84"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CQM-m6-mn7">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zxa-BR-aTW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Stage" id="CJb-Nv-7pz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kYV-NS-pl1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="stage1" translatesAutoresizingMaskIntoConstraints="NO" id="LEb-NL-Z0Y">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="492"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle-overlay" translatesAutoresizingMaskIntoConstraints="NO" id="Kcc-MB-Xsc">
+                                <rect key="frame" x="-1" y="-2" width="415" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="center" semanticContentAttribute="spatial" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OwP-48-Mdd">
+                                <rect key="frame" x="51" y="55" width="313" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="lamp-bar" translatesAutoresizingMaskIntoConstraints="NO" id="c0c-9S-ece">
+                                        <rect key="frame" x="0.0" y="0.0" width="313" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="yellow-bar" translatesAutoresizingMaskIntoConstraints="NO" id="VhR-WO-zyz">
+                                        <rect key="frame" x="5" y="5" width="294" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="lamp-icon" translatesAutoresizingMaskIntoConstraints="NO" id="IjF-nq-pyt">
+                                        <rect key="frame" x="259" y="-13" width="54" height="58"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="text-example" translatesAutoresizingMaskIntoConstraints="NO" id="K5d-gh-1tY">
+                                <rect key="frame" x="75" y="483" width="264" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDX-t6-Led">
+                                <rect key="frame" x="77" y="774" width="259" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button-example"/>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eik-i5-XSB">
+                                <rect key="frame" x="124" y="576" width="166" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="left-button-active" translatesAutoresizingMaskIntoConstraints="NO" id="136-uW-L2c">
+                                        <rect key="frame" x="0.0" y="54" width="50" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="right-button-active" translatesAutoresizingMaskIntoConstraints="NO" id="6Kt-2R-ZEd">
+                                        <rect key="frame" x="116" y="54" width="50" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="up-button-active" translatesAutoresizingMaskIntoConstraints="NO" id="LJ1-Zr-GQh">
+                                        <rect key="frame" x="58" y="0.0" width="50" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="down-button-active" translatesAutoresizingMaskIntoConstraints="NO" id="GB1-GP-6BS">
+                                        <rect key="frame" x="58" y="108" width="50" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DIW-TO-73d"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="876.81159420289862" y="83.705357142857139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="about-button" width="313" height="63"/>
+        <image name="button-example" width="259" height="52.5"/>
+        <image name="circle-overlay" width="414" height="896"/>
+        <image name="down-button-active" width="50" height="54"/>
+        <image name="lamp-bar" width="313" height="32"/>
+        <image name="lamp-icon" width="54" height="58"/>
+        <image name="left-button-active" width="50" height="54"/>
+        <image name="logo-firstscreen" width="328" height="463"/>
+        <image name="play-button" width="313" height="63"/>
+        <image name="right-button-active" width="50" height="54"/>
+        <image name="stage1" width="414" height="492"/>
+        <image name="text-example" width="263.5" height="54"/>
+        <image name="up-button-active" width="50" height="54"/>
+        <image name="yellow-bar" width="294" height="22"/>
+    </resources>
 </document>

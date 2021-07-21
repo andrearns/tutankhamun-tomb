@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		5B04A6BF26A8B30B00ACC7BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6BE26A8B30B00ACC7BF /* AppDelegate.swift */; };
 		5B04A6C126A8B30B00ACC7BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6C026A8B30B00ACC7BF /* SceneDelegate.swift */; };
-		5B04A6C326A8B30B00ACC7BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6C226A8B30B00ACC7BF /* ViewController.swift */; };
+		5B04A6C326A8B30B00ACC7BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6C226A8B30B00ACC7BF /* HomeViewController.swift */; };
 		5B04A6C626A8B30B00ACC7BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B04A6C426A8B30B00ACC7BF /* Main.storyboard */; };
 		5B04A6C826A8B30D00ACC7BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B04A6C726A8B30D00ACC7BF /* Assets.xcassets */; };
 		5B04A6CB26A8B30D00ACC7BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B04A6C926A8B30D00ACC7BF /* LaunchScreen.storyboard */; };
+		5B04A6D626A8CDA100ACC7BF /* StageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6D526A8CDA100ACC7BF /* StageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B04A6BB26A8B30B00ACC7BF /* TutankhamunTomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutankhamunTomb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B04A6BE26A8B30B00ACC7BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B04A6C026A8B30B00ACC7BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B04A6C226A8B30B00ACC7BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B04A6C226A8B30B00ACC7BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5B04A6C526A8B30B00ACC7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B04A6C726A8B30D00ACC7BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B04A6CA26A8B30D00ACC7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B04A6CC26A8B30D00ACC7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B04A6D526A8CDA100ACC7BF /* StageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		5B04A6BD26A8B30B00ACC7BF /* TutankhamunTomb */ = {
 			isa = PBXGroup;
 			children = (
+				5B04A6D426A8CB9600ACC7BF /* Controllers */,
+				5B04A6D326A8CB8D00ACC7BF /* Views */,
+				5B04A6D226A8CB8500ACC7BF /* Models */,
 				5B04A6BE26A8B30B00ACC7BF /* AppDelegate.swift */,
 				5B04A6C026A8B30B00ACC7BF /* SceneDelegate.swift */,
-				5B04A6C226A8B30B00ACC7BF /* ViewController.swift */,
 				5B04A6C426A8B30B00ACC7BF /* Main.storyboard */,
 				5B04A6C726A8B30D00ACC7BF /* Assets.xcassets */,
 				5B04A6C926A8B30D00ACC7BF /* LaunchScreen.storyboard */,
 				5B04A6CC26A8B30D00ACC7BF /* Info.plist */,
 			);
 			path = TutankhamunTomb;
+			sourceTree = "<group>";
+		};
+		5B04A6D226A8CB8500ACC7BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B04A6D326A8CB8D00ACC7BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B04A6C226A8B30B00ACC7BF /* HomeViewController.swift */,
+				5B04A6D526A8CDA100ACC7BF /* StageViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B04A6D426A8CB9600ACC7BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B04A6C326A8B30B00ACC7BF /* ViewController.swift in Sources */,
+				5B04A6C326A8B30B00ACC7BF /* HomeViewController.swift in Sources */,
 				5B04A6BF26A8B30B00ACC7BF /* AppDelegate.swift in Sources */,
+				5B04A6D626A8CDA100ACC7BF /* StageViewController.swift in Sources */,
 				5B04A6C126A8B30B00ACC7BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
