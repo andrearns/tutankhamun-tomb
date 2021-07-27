@@ -9,23 +9,39 @@
 /* Begin PBXBuildFile section */
 		5B04A6BF26A8B30B00ACC7BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6BE26A8B30B00ACC7BF /* AppDelegate.swift */; };
 		5B04A6C126A8B30B00ACC7BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6C026A8B30B00ACC7BF /* SceneDelegate.swift */; };
-		5B04A6C326A8B30B00ACC7BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6C226A8B30B00ACC7BF /* HomeViewController.swift */; };
 		5B04A6C626A8B30B00ACC7BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B04A6C426A8B30B00ACC7BF /* Main.storyboard */; };
 		5B04A6C826A8B30D00ACC7BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B04A6C726A8B30D00ACC7BF /* Assets.xcassets */; };
 		5B04A6CB26A8B30D00ACC7BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B04A6C926A8B30D00ACC7BF /* LaunchScreen.storyboard */; };
 		5B04A6D626A8CDA100ACC7BF /* StageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6D526A8CDA100ACC7BF /* StageViewController.swift */; };
+		5B04A6D826A8DAD000ACC7BF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6D726A8DAD000ACC7BF /* Game.swift */; };
+		5B04A6DA26A8DBB500ACC7BF /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6D926A8DBB500ACC7BF /* Stage.swift */; };
+		5B04A6E226A9F78400ACC7BF /* StageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6E126A9F78400ACC7BF /* StageList.swift */; };
+		5B04A6E626AC978700ACC7BF /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6E526AC978700ACC7BF /* Action.swift */; };
+		5B04A6EB26ACA5A500ACC7BF /* half_bold_pixel-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B04A6EA26ACA5A500ACC7BF /* half_bold_pixel-7.ttf */; };
+		5B04A6ED26AD27A700ACC7BF /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6EC26AD27A700ACC7BF /* GameOverViewController.swift */; };
+		5B04A6EF26AD418600ACC7BF /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6EE26AD418600ACC7BF /* Puzzle.swift */; };
+		5B04A6F126AD44BD00ACC7BF /* PuzzleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6F026AD44BD00ACC7BF /* PuzzleList.swift */; };
+		5B04A6F326AD483800ACC7BF /* PuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04A6F226AD483800ACC7BF /* PuzzleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B04A6BB26A8B30B00ACC7BF /* TutankhamunTomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutankhamunTomb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B04A6BE26A8B30B00ACC7BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B04A6C026A8B30B00ACC7BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B04A6C226A8B30B00ACC7BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5B04A6C526A8B30B00ACC7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B04A6C726A8B30D00ACC7BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B04A6CA26A8B30D00ACC7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B04A6CC26A8B30D00ACC7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B04A6D526A8CDA100ACC7BF /* StageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageViewController.swift; sourceTree = "<group>"; };
+		5B04A6D726A8DAD000ACC7BF /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		5B04A6D926A8DBB500ACC7BF /* Stage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage.swift; sourceTree = "<group>"; };
+		5B04A6E126A9F78400ACC7BF /* StageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageList.swift; sourceTree = "<group>"; };
+		5B04A6E526AC978700ACC7BF /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		5B04A6EA26ACA5A500ACC7BF /* half_bold_pixel-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "half_bold_pixel-7.ttf"; sourceTree = "<group>"; };
+		5B04A6EC26AD27A700ACC7BF /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		5B04A6EE26AD418600ACC7BF /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		5B04A6F026AD44BD00ACC7BF /* PuzzleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleList.swift; sourceTree = "<group>"; };
+		5B04A6F226AD483800ACC7BF /* PuzzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,40 +74,56 @@
 		5B04A6BD26A8B30B00ACC7BF /* TutankhamunTomb */ = {
 			isa = PBXGroup;
 			children = (
-				5B04A6D426A8CB9600ACC7BF /* Controllers */,
-				5B04A6D326A8CB8D00ACC7BF /* Views */,
-				5B04A6D226A8CB8500ACC7BF /* Models */,
+				5B04A6E026A9E0BE00ACC7BF /* model */,
+				5B04A6DF26A9E09300ACC7BF /* controllers */,
+				5B04A6DE26A9E06F00ACC7BF /* components */,
+				5B04A6E926ACA57300ACC7BF /* fonts */,
 				5B04A6BE26A8B30B00ACC7BF /* AppDelegate.swift */,
 				5B04A6C026A8B30B00ACC7BF /* SceneDelegate.swift */,
 				5B04A6C426A8B30B00ACC7BF /* Main.storyboard */,
-				5B04A6C726A8B30D00ACC7BF /* Assets.xcassets */,
 				5B04A6C926A8B30D00ACC7BF /* LaunchScreen.storyboard */,
+				5B04A6C726A8B30D00ACC7BF /* Assets.xcassets */,
 				5B04A6CC26A8B30D00ACC7BF /* Info.plist */,
 			);
 			path = TutankhamunTomb;
 			sourceTree = "<group>";
 		};
-		5B04A6D226A8CB8500ACC7BF /* Models */ = {
+		5B04A6DE26A9E06F00ACC7BF /* components */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Models;
+			path = components;
 			sourceTree = "<group>";
 		};
-		5B04A6D326A8CB8D00ACC7BF /* Views */ = {
+		5B04A6DF26A9E09300ACC7BF /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5B04A6C226A8B30B00ACC7BF /* HomeViewController.swift */,
 				5B04A6D526A8CDA100ACC7BF /* StageViewController.swift */,
+				5B04A6EC26AD27A700ACC7BF /* GameOverViewController.swift */,
+				5B04A6F226AD483800ACC7BF /* PuzzleViewController.swift */,
 			);
-			path = Views;
+			path = controllers;
 			sourceTree = "<group>";
 		};
-		5B04A6D426A8CB9600ACC7BF /* Controllers */ = {
+		5B04A6E026A9E0BE00ACC7BF /* model */ = {
 			isa = PBXGroup;
 			children = (
+				5B04A6D726A8DAD000ACC7BF /* Game.swift */,
+				5B04A6D926A8DBB500ACC7BF /* Stage.swift */,
+				5B04A6E526AC978700ACC7BF /* Action.swift */,
+				5B04A6E126A9F78400ACC7BF /* StageList.swift */,
+				5B04A6EE26AD418600ACC7BF /* Puzzle.swift */,
+				5B04A6F026AD44BD00ACC7BF /* PuzzleList.swift */,
 			);
-			path = Controllers;
+			path = model;
+			sourceTree = "<group>";
+		};
+		5B04A6E926ACA57300ACC7BF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5B04A6EA26ACA5A500ACC7BF /* half_bold_pixel-7.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B04A6CB26A8B30D00ACC7BF /* LaunchScreen.storyboard in Resources */,
+				5B04A6EB26ACA5A500ACC7BF /* half_bold_pixel-7.ttf in Resources */,
 				5B04A6C826A8B30D00ACC7BF /* Assets.xcassets in Resources */,
 				5B04A6C626A8B30B00ACC7BF /* Main.storyboard in Resources */,
 			);
@@ -164,9 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B04A6C326A8B30B00ACC7BF /* HomeViewController.swift in Sources */,
+				5B04A6DA26A8DBB500ACC7BF /* Stage.swift in Sources */,
+				5B04A6D826A8DAD000ACC7BF /* Game.swift in Sources */,
+				5B04A6E626AC978700ACC7BF /* Action.swift in Sources */,
+				5B04A6F126AD44BD00ACC7BF /* PuzzleList.swift in Sources */,
 				5B04A6BF26A8B30B00ACC7BF /* AppDelegate.swift in Sources */,
+				5B04A6F326AD483800ACC7BF /* PuzzleViewController.swift in Sources */,
+				5B04A6ED26AD27A700ACC7BF /* GameOverViewController.swift in Sources */,
 				5B04A6D626A8CDA100ACC7BF /* StageViewController.swift in Sources */,
+				5B04A6EF26AD418600ACC7BF /* Puzzle.swift in Sources */,
+				5B04A6E226A9F78400ACC7BF /* StageList.swift in Sources */,
 				5B04A6C126A8B30B00ACC7BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
